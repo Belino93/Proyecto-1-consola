@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/mid.css">
     <link rel="stylesheet" href="./css/bottom.css">
+    <link rel="shortcut icon" href="#">
     
+
 </head>
 
 <body>
@@ -36,7 +38,11 @@
                 </div>
                 <!-- Pantalla superior-->
                 <div id="upper-box-screen">
-                    <div id="top-screen"></div>
+                    <div id="top-screen">
+                        <video id="video" height="250" width="380"  loop hidden autoplay>   
+                            <source src="./video/nintendo-main-theme.mp4">                         
+                        </video>
+                    </div>
                 </div>
                 <div class="upper-box-side" id="upper-box-side-right">
                     <!-- Altavoz izquierdo superior-->
@@ -74,19 +80,57 @@
             <div id="bottom-box">
                 <!-- Pad dirección-->
                 <div id="bottom-box-side-left">
-                    <div class="pad" id="pad-up"></div>
-                    <div class="pad" id="pad-r"></div>
-                    <div class="pad" id="pad-down"></div>
-                    <div class="pad" id="pad-l"></div>
-                    <div class="pad" id="pad-center"></div>
+                    <div id="box-pad-1"></div>
+                    <div id="box-pad-2"></div>
+                    <div id="box-pad-3"></div>
+                    <div id="box-pad-4"></div>
+
+                    <div class="pad" id="pad-up">
+                        <div class="vertical-line" id="line-up"></div>
+                    </div>
+                    <div class="pad" id="pad-r">
+                        <div class="horizontal-line" id="line-right"></div>
+                    </div>
+                    <div class="pad" id="pad-down">
+                        <div class="vertical-line" id="line-down"></div>
+                    </div>
+                    <div class="pad" id="pad-l">
+                        <div class="horizontal-line" id="line-left"></div>
+                    </div>
                 </div>
                 <div id="bottom-box-screen">
                     <div id="bottom-screen"></div>
                 </div>
-                <div id="bottom-box-side-right"></div>
+                <div id="bottom-box-side-right">
+                    <div id="bottom-box-right-buttons">
+                        <div class="button-circle" id="button-x">
+                            <span class="button-letter">X</span>
+                        </div>
+                        <div class="button-circle" id="button-a">
+                            <span class="button-letter">A</span>
+                        </div>
+                        <div class="button-circle" id="button-b">
+                            <span class="button-letter">B</span>
+                        </div>
+                        <div class="button-circle" id="button-y">
+                            <span class="button-letter">Y</span>
+                        </div>
+                    </div>
+                    <div id="start-select-box">
+                        <div id="start-button">
+                            <div class="start-select-circle" onclick="start()"></div>
+                            <div class="string-button">START</div>
+                        </div>
+                        <div id="select-button">
+                            <div class="start-select-circle"></div>
+                            <div class="string-button">SELECT</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
 
 </html>
+<script src="./js/main.js"></script>

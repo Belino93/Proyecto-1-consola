@@ -17,6 +17,7 @@
     background-color: #C70816;
     width: 660px;
     display: flex;
+    border-top: 3px solid #df1522;
 }
 
 #mid-box-mic {
@@ -67,7 +68,8 @@
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    background-color: rgb(49, 250, 49);
+    background-color: rgb(66, 66, 66);
     margin-left: 10px;
     margin-top: 10px;
 }
+
