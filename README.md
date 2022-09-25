@@ -11,3 +11,11 @@ Durante la primera sesión se crea la estructura html, y le damos estilos. Tras 
 
 ![Sesion1-proyecto1](https://user-images.githubusercontent.com/90568424/192092785-cb58c3a5-c776-4415-887a-4c10d3c57498.PNG)
 
+Realizamos la zona central de la videoconsola en la segunda sesión.
+![Sesion2](https://user-images.githubusercontent.com/90568424/192136740-1c281ad7-0681-41dc-8452-e62626259fd1.PNG)
+
+Una vez finalizada, comenzamos la parte inferior, creamos botonera y ademas realizamos una refactorización en el código css.
+
+![Sesion3](https://user-images.githubusercontent.com/90568424/192136837-b8c3d75e-3328-4e14-ad59-50116ddb71bc.PNG)
+
+

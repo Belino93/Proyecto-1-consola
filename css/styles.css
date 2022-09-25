@@ -2,11 +2,11 @@ body {
     margin: 0 0 0 0;
 }
 
-#container{
+#container {
 
     align-items: center;
-    justify-items: center;  
-    justify-content: center; 
+    justify-items: center;
+    justify-content: center;
 }
 
 #main-box {
@@ -31,6 +31,7 @@ body {
 
 #upper-box-side-left {
     border-top-left-radius: 40px;
+    border-bottom-left-radius: 10px;
 }
 
 .upper-box-spk-left {
@@ -63,8 +64,8 @@ body {
     background-color: #C70816;
 }
 
-.top-screen {
-    background-image: linear-gradient(to    bottom right, white, grey);
+#top-screen {
+    background-image: linear-gradient(to bottom right, white, grey);
     width: 379px;
     height: 250px;
     margin-top: 48px;
@@ -79,6 +80,7 @@ body {
 
 #upper-box-side-right {
     border-top-right-radius: 40px;
+    border-bottom-right-radius: 10px;
 }
 
 .upper-box-spk-right {
@@ -98,13 +100,4 @@ body {
     display: flex;
 }
 
-#mid-box {
-    background-color: lightcoral;
-    height: 60px;
-}
 
-#bottom-box {
-    background-color: yellow;
-    height: 345px;
-}
- 
